@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+h5{
+    text-decoration:none;
+    color:#555;
+}
+
+h2{
+    text-decoration:none;
+    color: aliceblue;
+    
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+}
+
+
+.hover-effect {
+    width: 200px;
+    height: 200px;
+    padding: 15px; 
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+.hover-effect:hover {
+    transform: scale(1.1);
+    background-color: lightgreen;
+    }
+    
+
+.col-md-4 {
+    margin-bottom: 30px;
+    padding: 15px;
+    padding-left:15px;
+    }
+
+.row {
+    column-gap: 50px;
+    padding:100px ;
+    }
+
+
+
+label{
+    color:aliceblue;
+}
+
