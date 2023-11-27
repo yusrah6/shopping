@@ -8,7 +8,7 @@ h5{
     text-decoration:none;
     color:#555;
 }
-
+/* color of heading */
 h2{
     text-decoration:none;
     color: aliceblue;
@@ -19,7 +19,7 @@ header {
     text-align: left;
     padding: 20px;
 }
-
+/* heading space */ 
 
 .hover-effect {
     width: 200px;
@@ -31,12 +31,12 @@ header {
     align-items: center;
     transition: transform 0.3s ease-in-out;
     }
-    
+/*settings for hover and timing on hover */
 .hover-effect:hover {
     transform: scale(1.1);
     background-color: plum;
     }
-    
+/*makes picture border change color when hovered over  */
 
 .col-md-4 {
     margin-bottom: 30px;
